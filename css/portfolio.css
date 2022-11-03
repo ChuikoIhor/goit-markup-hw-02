@@ -1,0 +1,13 @@
+/* main */
+.btn-secondary {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.title {
+    opacity: 0;
+}

@@ -1,0 +1,96 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет белый #FFFFFF */
+/* цвет акцент #2196F3 */
+/* цвет фона главного заголовка #2F303A */
+:root {
+    --primary-text-color: #212121;
+    --p-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+p {
+    color: var(--p-text-color);
+}
+
+h2,
+h3 {
+    color: var(--primary-text-color);
+}
+
+/* header nav */
+.logo {
+    color: #000000;
+}
+
+.accentlogo {
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav a {
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--p-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+/* footer */
+.footer .logo {
+    color: var(--primary-white-color);
+}
+
+.footer .accentlogo {
+    color: var(--accent-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address-link {
+    color: var(--primary-white-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}

@@ -1,0 +1,20 @@
+/* main */
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--primary-white-color);
+}
+.btn-primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+/* peculiarities */
+.peculiarities-title {
+    opacity: 0;
+}
+.team {
+    background-color: #F5F4FA;
+}
