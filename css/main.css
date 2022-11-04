@@ -12,9 +12,6 @@
     cursor: pointer;
 }
 /* peculiarities */
-.peculiarities-title {
-    opacity: 0;
-}
 .team {
     background-color: #F5F4FA;
 }
