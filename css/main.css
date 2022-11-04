@@ -5,13 +5,64 @@
 }
 .hero-title {
     color: var(--primary-white-color);
+
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 6%;
 }
 .btn-primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
     cursor: pointer;
+
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 6%;
 }
 /* peculiarities */
-.team {
+.peculiarities-title {
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+}
+.peculiarities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+}
+.our-work {
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 3%;
+}
+.our-team {
     background-color: #F5F4FA;
+}
+.our-team-title {
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 3%;
+}
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 3%;
 }

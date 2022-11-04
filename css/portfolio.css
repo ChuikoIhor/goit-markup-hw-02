@@ -2,9 +2,32 @@
 .btn-secondary {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+
     cursor: pointer;
+
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 3%;
 }
 .btn-secondary:hover, .btn-secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+}
+.portfolio-title {
+    font-style: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 6%;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
 }
