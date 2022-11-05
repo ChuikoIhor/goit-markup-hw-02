@@ -14,17 +14,12 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 
+    font-style: normal;
     font-family: Roboto, sans-serif;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
-
-p {
-    color: var(--p-text-color);
-}
-
-h2,
-h3 {
-    color: var(--primary-text-color);
+ul {
+    list-style: none;
 }
 
 /* header nav */
@@ -32,10 +27,10 @@ h3 {
     color: #000000;
 
     font-family: Raleway;
-    font-style: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .accentlogo {
@@ -50,14 +45,14 @@ h3 {
 .site-nav .link.current {
     color: var(--accent-color);
 
-    font-style: 500;
     font-size: 14px; 
     line-height: 1.14;
-    letter-spacing: 2%;
 }
 
 .site-nav a {
     color: var(--primary-text-color);
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -67,11 +62,12 @@ h3 {
 
 .contacts a {
     color: var(--p-text-color);
+
+    text-decoration: none;
     
-    font-style: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .contacts a:hover,
@@ -83,10 +79,9 @@ h3 {
     color: var(--primary-white-color);
 
     font-family: Raleway;
-    font-style: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .footer .accentlogo {
@@ -105,9 +100,12 @@ h3 {
 .address-link {
     color: var(--primary-white-color);
 
+    text-decoration: none;
+
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .address-link:hover,
@@ -118,9 +116,12 @@ h3 {
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 
+    text-decoration: none;
+
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .footer-contacts:hover,

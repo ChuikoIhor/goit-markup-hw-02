@@ -5,29 +5,31 @@
 
     cursor: pointer;
 
-    font-style: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: Center;
     vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 .btn-secondary:hover, .btn-secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 .portfolio-title {
-    font-style: 700;
+    color: var(--primary-text-color);
+
     font-size: 18px;
     line-height: 2;
     text-align: Left;
     vertical-align: Top;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 .portfolio-text {
+    color: var(--p-text-color);
+
     font-size: 16px;
     line-height: 1.87;
     text-align: Left;
     vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
